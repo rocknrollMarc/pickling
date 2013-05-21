@@ -1,0 +1,4 @@
+<%= render partial: 'noserver' if @gitserver.nil? %>
+<%= render partial: 'server', :object => @gitserver if !@gitserver.nil? %>
+<%= render partial: 'norepo' if @gitserver.nil? || @gitserver.git_repos.nil?%>
+<%= render partial: 'repo', collection: @gitserver.git_repos if !(@gitserver.nil? && @gitserver.git_repos.nil?)%>

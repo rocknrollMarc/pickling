@@ -1,0 +1,1711 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 09:51:39 -0700
+Connecting to database specified by database.yml
+Served asset /rails.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 09:51:42 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 09:52:20 -0700
+Served asset /rails.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 09:52:22 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 09:55:39 -0700
+Served asset /rails.png - 304 Not Modified (5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 10:03:53 -0700
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-05-20 10:11:44 -0700
+Served asset /rails.png - 304 Not Modified (3ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-05-20 10:11:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/home"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.9ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:11:50 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled home.css  (9ms)  (pid 92712)
+Compiled application.css  (67ms)  (pid 92712)
+Compiled jquery.js  (4ms)  (pid 92712)
+Compiled jquery_ujs.js  (2ms)  (pid 92712)
+Compiled home.js  (148ms)  (pid 92712)
+Compiled application.js  (208ms)  (pid 92712)
+Completed 200 OK in 382ms (Views: 372.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /application.css - 200 OK (10ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /jquery.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /home.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /application.js - 200 OK (15ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /jquery_ujs.js - 200 OK (5ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:11:51 -0700
+Served asset /home.js - 200 OK (3ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:15:37 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 18ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:15:37 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:15:37 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:15:37 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:15:37 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:16:02 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 103ms (Views: 94.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:02 -0700
+Served asset /application.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:03 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:03 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:03 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:16:21 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:21 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:21 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:21 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:21 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:16:40 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:40 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:40 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:16:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:16:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:17:28 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 65ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:17:28 -0700
+Served asset /home.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:17:28 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:17:28 -0700
+Served asset /home.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:17:28 -0700
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:18:12 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 66ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:18:12 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:18:12 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:18:12 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:18:12 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:18:30 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 15ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:18:30 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:18:30 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:18:30 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:18:30 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:19:31 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 107ms (Views: 97.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:19:31 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:19:31 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:19:31 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:19:31 -0700
+Served asset /application.js - 304 Not Modified (71ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 10:22:39 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 109ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 10:22:39 -0700
+Served asset /home.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 10:22:39 -0700
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 10:22:39 -0700
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 10:22:39 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/home/index" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (43.9ms)
+Compiled admin.css  (7ms)  (pid 94804)
+Compiled application.css  (21ms)  (pid 94804)
+Compiled admin.js  (145ms)  (pid 94804)
+Compiled application.js  (177ms)  (pid 94804)
+Completed 200 OK in 371ms (Views: 361.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /admin.js - 200 OK (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /admin.css - 200 OK (4ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /home.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 13:44:42 -0700
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/admin/index" for 127.0.0.1 at 2013-05-20 13:46:34 -0700
+
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 13:46:40 -0700
+Processing by AdminController#index as HTML
+Completed 500 Internal Server Error in 4ms
+
+ActionView::MissingTemplate (Missing template admin/index, application/index with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/smayszak/src/WebSites/Pickling/app/views"
+):
+  actionpack (3.2.12) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.12) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.12) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.12) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.12) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.12) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.12) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+  activesupport (3.2.12) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.12) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:414:in `_run__2684272038265084910__process_action__710216806529958815__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.12) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.12) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.12) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.12) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.12) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.12) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.12) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.12) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.12) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.12) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.12) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.12) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `_run__677795476596179670__call__544988508396727871__callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.12) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.12) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 13:47:03 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 13:47:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 13:47:03 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 13:47:03 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 13:47:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_repo.html.erb (0.5ms)
+  Rendered admin/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 120ms (Views: 119.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /home.css - 304 Not Modified (44ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /admin.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:02:37 -0700
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_repo.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 61ms (Views: 60.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:03:05 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.5ms)
+  Rendered admin/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:18 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.5ms)
+  Rendered admin/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 115ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /application.css - 304 Not Modified (65ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /admin.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:04:27 -0700
+Served asset /admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:05:33 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:05:50 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33364ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:23 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:06:36 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3725ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:06:40 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.2ms)
+  Rendered admin/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 16ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:07:03 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 66ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:28 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:09:46 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:11:59 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionView::Template::Error (undefined method `repos' for {:name=>"mygitserver"}:Hash):
+    1: <%= render partial: 'noserver' if @gitserver.nil? %>
+    2: <%= render partial: 'server' if !@gitserver.nil? %>
+    3: <%= render partial: 'norepo' if @gitserver.nil? || @gitserver.repos.nil?%>
+    4: <%= render partial: 'repo', collection: @gitserver.repos if !(@gitserver.nil? && @gitserver.repos.nil?)%>
+  app/views/admin/index.html.erb:3:in `_app_views_admin_index_html_erb___1010698249822738455_70111262093800'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.8ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:12:55 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionView::Template::Error (undefined method `repos' for {:name=>"mygitserver", :git_repos=>nil}:Hash):
+    1: <%= render partial: 'noserver' if @gitserver.nil? %>
+    2: <%= render partial: 'server' if !@gitserver.nil? %>
+    3: <%= render partial: 'norepo' if @gitserver.nil? || @gitserver.repos.nil?%>
+    4: <%= render partial: 'repo', collection: @gitserver.git_repos if !(@gitserver.nil? && @gitserver.git_repos.nil?)%>
+  app/views/admin/index.html.erb:3:in `_app_views_admin_index_html_erb___1010698249822738455_70111291607040'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:13:07 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `git_repos' for {:name=>"mygitserver", :git_repos=>nil}:Hash):
+    1: <%= render partial: 'noserver' if @gitserver.nil? %>
+    2: <%= render partial: 'server' if !@gitserver.nil? %>
+    3: <%= render partial: 'norepo' if @gitserver.nil? || @gitserver.git_repos.nil?%>
+    4: <%= render partial: 'repo', collection: @gitserver.git_repos if !(@gitserver.nil? && @gitserver.git_repos.nil?)%>
+  app/views/admin/index.html.erb:3:in `_app_views_admin_index_html_erb___1010698249822738455_70111293086400'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (62.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:13:51 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/index.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `git_repos' for #<Hash:0x007f881a1c62c8>):
+    1: <%= render partial: 'noserver' if @gitserver.nil? %>
+    2: <%= render partial: 'server' if !@gitserver.nil? %>
+    3: <%= render partial: 'norepo' if @gitserver.nil? || @gitserver.git_repos.nil?%>
+    4: <%= render partial: 'repo', collection: @gitserver.git_repos if !(@gitserver.nil? && @gitserver.git_repos.nil?)%>
+  app/views/admin/index.html.erb:3:in `_app_views_admin_index_html_erb___1010698249822738455_70111293086400'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/_repo.html.erb (0.6ms)
+  Rendered admin/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:17:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.8ms)
+  Rendered admin/_repo.html.erb (0.2ms)
+  Rendered admin/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:18:26 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:21:04 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.2ms)
+  Rendered admin/_repo.html.erb (1.7ms)
+  Rendered admin/index.html.erb within layouts/application (4.5ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <p><%= @git_repo.name %></p>
+  app/views/admin/_repo.html.erb:1:in `_app_views_admin__repo_html_erb__3231785887669411488_70111277222480'
+  app/views/admin/index.html.erb:4:in `_app_views_admin_index_html_erb___1010698249822738455_70111293086400'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:21:13 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.6ms)
+  Rendered admin/_repo.html.erb (2.6ms)
+  Rendered admin/index.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `name' for nil:NilClass):
+    1: <p><%= @git_repo.name %></p>
+  app/views/admin/_repo.html.erb:1:in `_app_views_admin__repo_html_erb__2236174005146060905_70128780164000'
+  app/views/admin/index.html.erb:4:in `_app_views_admin_index_html_erb__2913971642834296846_70128807202540'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.2ms)
+  Rendered admin/_repo.html.erb (0.8ms)
+  Rendered admin/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /admin.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /admin.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:43 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:21:53 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.1ms)
+  Rendered admin/_repo.html.erb (0.9ms)
+  Rendered admin/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 18ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:53 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:53 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:53 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:54 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:21:54 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:21:54 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:21:58 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.3ms)
+  Rendered admin/_repo.html.erb (49904.9ms)
+  Rendered admin/index.html.erb within layouts/application (49908.3ms)
+Completed 200 OK in 49973ms (Views: 49972.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:22:48 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:29:05 -0700
+Processing by AdminController#index as HTML
+Completed 500 Internal Server Error in 27ms
+
+ActiveRecord::StatementInvalid (Could not find table 'git_servers'):
+  app/controllers/admin_controller.rb:3:in `new'
+  app/controllers/admin_controller.rb:3:in `index'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to InitServerModels (20130520213613)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130520213613')
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to InitServerModels (20130520213613)
+Migrating to InitServerModels2 (20130520213803)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ('20130520213803')
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:40:07 -0700
+Processing by AdminController#index as HTML
+Completed 500 Internal Server Error in 21ms
+
+ActiveRecord::StatementInvalid (Could not find table 'git_servers'):
+  app/controllers/admin_controller.rb:3:in `new'
+  app/controllers/admin_controller.rb:3:in `index'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to InitServerModels (20130520213613)
+Migrating to InitServerModels2 (20130520213803)
+Migrating to CreateGitRepos (20130520214441)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateGitRepos (20130520214441)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "git_repos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_name" varchar(255), "project_directory" varchar(255), "working_branch" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130520214441')[0m
+  [1m[35m (2.5ms)[0m  commit transaction
+Migrating to CreateGitServers (20130520214647)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Migrating to CreateGitRepos (20130520214441)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mDROP TABLE "git_repos"[0m
+  [1m[35m (0.1ms)[0m  DELETE FROM "schema_migrations" WHERE "schema_migrations"."version" = '20130520214441'
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT "schema_migrations"."version" FROM "schema_migrations" 
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateGitRepos (20130520214441)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (1.0ms)[0m  CREATE TABLE "git_repos" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "project_name" varchar(255), "project_directory" varchar(255), "working_branch" varchar(255), "git_server_id" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130520214441')[0m
+  [1m[35m (2.2ms)[0m  commit transaction
+Migrating to CreateGitServers (20130520214647)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TABLE "git_servers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "server_user" varchar(255), "password_digest" varchar(255), "server_address" varchar(255), "protocol" varchar(255), "local_dir" varchar(255), "edit_with_branches" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130520214647')[0m
+  [1m[35m (0.6ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+
+
+Started GET "/admin/index" for 127.0.0.1 at 2013-05-20 14:53:08 -0700
+
+ActionController::RoutingError (No route matches [GET] "/admin/index"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/smayszak/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:53:13 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.6ms)
+  Rendered admin/_repo.html.erb (19.1ms)
+  Rendered admin/index.html.erb within layouts/application (24.9ms)
+Completed 500 Internal Server Error in 143ms
+
+ActionView::Template::Error (undefined local variable or method `git_repo' for #<#<Class:0x007fb59f0923b8>:0x007fb59f0991e0>):
+    1: <p><%= git_repo.project_name %></p>
+  app/views/admin/_repo.html.erb:1:in `_app_views_admin__repo_html_erb__3740454851285890110_70208986858400'
+  app/views/admin/index.html.erb:4:in `_app_views_admin_index_html_erb__74280849840107857_70209017044080'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:53:38 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.3ms)
+  Rendered admin/_repo.html.erb (19.1ms)
+  Rendered admin/index.html.erb within layouts/application (55872.4ms)
+Completed 500 Internal Server Error in 107002ms
+
+ActionView::Template::Error (undefined local variable or method `git_repo' for #<#<Class:0x007fb59f0923b8>:0x007fb59d4aaf60>):
+    1: <p><%= git_repo.project_name %></p>
+  app/views/admin/_repo.html.erb:1:in `_app_views_admin__repo_html_erb__3740454851285890110_70208986858400'
+  app/views/admin/index.html.erb:4:in `_app_views_admin_index_html_erb__74280849840107857_70209017044080'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:55:46 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:57:44 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.8ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 14:58:26 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (0.8ms)
+  Rendered admin/_repo.html.erb (1.0ms)
+  Rendered admin/index.html.erb within layouts/application (19853.9ms)
+Completed 200 OK in 45105ms (Views: 19940.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /admin.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /home.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 14:59:11 -0700
+Served asset /admin.js - 304 Not Modified (3ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:44:27 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (19.5ms)
+  Rendered admin/index.html.erb within layouts/application (24.5ms)
+Completed 500 Internal Server Error in 5606ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007f92bcc4e7e8>:0x007f92bcd9d5b8>):
+    1: <section>
+    2:   <%=  form_for @gitserver do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___2325112886265578316_70134123302480'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1478611810111721922_70134105261020'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.5ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:46:42 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (13.5ms)
+  Rendered admin/index.html.erb within layouts/application (15.4ms)
+Completed 500 Internal Server Error in 20ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007f92bcc4e7e8>:0x007f92bda4eeb0>):
+    1: <section>
+    2:   <%=  form_for @gitserver do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___2325112886265578316_70134123302480'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1478611810111721922_70134105261020'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.4ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:47:01 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (11762.0ms)
+  Rendered admin/index.html.erb within layouts/application (11763.4ms)
+Completed 500 Internal Server Error in 11768ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007f92bcc4e7e8>:0x007f92bbe7bbc0>):
+    1: <section>
+    2:   <%=  form_for @gitserver do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___2325112886265578316_70134123302480'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1478611810111721922_70134105261020'
+
+
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:47:42 -0700
+Processing by AdminController#index as HTML
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:48:06 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (3.4ms)
+  Rendered admin/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 123ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <section>
+    2:   <%=  form_for server do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___118214930756763435_70354410337700'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb__1183625458566443843_70354409897760'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.9ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:49:37 -0700
+Processing by AdminController#index as HTML
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:50:03 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (20.6ms)
+  Rendered admin/index.html.erb within layouts/application (25.1ms)
+Completed 500 Internal Server Error in 143ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007ff3d5c83b08>:0x007ff3d5cb9870>):
+    1: <section>
+    2:   <%=  form_for server do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___450856940280809615_70342610446100'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1163655024620782218_70342610008940'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (51.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:50:13 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (35824.0ms)
+  Rendered admin/index.html.erb within layouts/application (35825.4ms)
+Completed 500 Internal Server Error in 35830ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007ff3d5c83b08>:0x007ff3d4ac4ea8>):
+    1: <section>
+    2:   <%=  form_for server do  |f| %>
+    3:       <%=  f.label :name %>:
+    4:       <%= f.text_field :name %>
+    5:       <%=  f.label :protocol %>:
+  app/views/admin/_server.html.erb:2:in `_app_views_admin__server_html_erb___450856940280809615_70342610446100'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1163655024620782218_70342610008940'
+
+
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:53:31 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (21.8ms)
+  Rendered admin/index.html.erb within layouts/application (26.2ms)
+Completed 500 Internal Server Error in 142ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007ffcc49d2fb0>:0x007ffcc4a18ab0>):
+    1: <section>
+    2: 
+    3:   <%=  form_for server do  |f| %>
+    4:       <%=  f.label :name %>
+    5:       <%= f.text_field :name %>
+    6:       <%=  f.label :protocol %>
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb__4465603907455327540_70361804097000'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___1739325232715364348_70361782021580'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (52.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:57:57 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (19.7ms)
+  Rendered admin/index.html.erb within layouts/application (24.4ms)
+Completed 500 Internal Server Error in 139ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007fd522167688>:0x007fd523570b48>):
+    1: <section>
+    2: 
+    3:   <%=  form_for server do  |f| %>
+    4:       <%=  f.label :name %>
+    5:       <%= f.text_field :name %>
+    6:       <%=  f.label :protocol %>
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb__3396215317360977225_70276699703780'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___3192019806099935915_70276699277500'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (55.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:58:15 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (20.9ms)
+  Rendered admin/index.html.erb within layouts/application (25.1ms)
+Completed 500 Internal Server Error in 140ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007f823670af20>:0x007f82367480c8>):
+    1: <section>
+    2: 
+    3:   <%=  form_for server do  |f| %>
+    4:       <%=  f.label :name %>
+    5:       <%= f.text_field :name %>
+    6:       <%=  f.label :protocol %>
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___4320983374995214697_70098600954420'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb__1026039559074800909_70098600512080'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.7ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (49.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 15:59:16 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (48151.6ms)
+  Rendered admin/index.html.erb within layouts/application (51287.6ms)
+Completed 500 Internal Server Error in 51294ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007f823670af20>:0x007f823784b640>):
+    1: <section>
+    2: 
+    3:   <%=  form_for server do  |f| %>
+    4:       <%=  f.label :name %>
+    5:       <%= f.text_field :name %>
+    6:       <%=  f.label :protocol %>
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___4320983374995214697_70098600954420'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb__1026039559074800909_70098600512080'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:00:32 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (3491.4ms)
+  Rendered admin/index.html.erb within layouts/application (3493.1ms)
+Completed 500 Internal Server Error in 3498ms
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:00:39 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (20.1ms)
+  Rendered admin/index.html.erb within layouts/application (24.6ms)
+Completed 500 Internal Server Error in 142ms
+
+ActionView::Template::Error (undefined method `git_servers_path' for #<#<Class:0x007ff06c93b480>:0x007ff06c950060>):
+    1: <section>
+    2: 
+    3:   <%=  form_for server do  |f| %>
+    4:       <%=  f.label :name %>
+    5:       <%= f.text_field :name %>
+    6:       <%=  f.label :protocol %>
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___298917920697448409_70335272078320'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___3843365247977765177_70335283639360'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:11:53 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (7.3ms)
+  Rendered admin/index.html.erb within layouts/application (15.9ms)
+Completed 500 Internal Server Error in 270ms
+
+ActionController::RoutingError (No route matches {:controller=>"admin", :action=>"server_edit", :id=>nil}):
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___4574466482998468736_70269474129020'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___874327427004234154_70269446443640'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:12:19 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (2.8ms)
+  Rendered admin/index.html.erb within layouts/application (4.2ms)
+Completed 500 Internal Server Error in 108ms
+
+ActionController::RoutingError (No route matches {:controller=>"admin", :action=>"server_edit", :id=>nil}):
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___4574466482998468736_70269474129020'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___874327427004234154_70269446443640'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:12:25 -0700
+Processing by AdminController#index as HTML
+  Rendered admin/_server.html.erb (1.9ms)
+  Rendered admin/index.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 66ms
+
+ActionController::RoutingError (No route matches {:controller=>"admin", :action=>"server_edit", :id=>nil}):
+  app/views/admin/_server.html.erb:3:in `_app_views_admin__server_html_erb___4574466482998468736_70269474129020'
+  app/views/admin/index.html.erb:2:in `_app_views_admin_index_html_erb___874327427004234154_70269446443640'
+
+
+  Rendered /Users/smayszak/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:12:47 -0700
+Processing by AdminController#index as HTML
+  [1m[36mGitRepo Load (0.4ms)[0m  [1mSELECT "git_repos".* FROM "git_repos" WHERE "git_repos"."git_server_id" = 1[0m
+  Rendered admin/_server.html.erb (34.1ms)
+  Rendered admin/_repo.html.erb (0.9ms)
+  Rendered admin/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 261ms (Views: 152.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /application.css - 304 Not Modified (61ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /jquery.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /application.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 16:12:48 -0700
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Processing by AdminController#index as HTML
+  [1m[35mGitRepo Load (0.2ms)[0m  SELECT "git_repos".* FROM "git_repos" WHERE "git_repos"."git_server_id" = 1
+  Rendered admin/_server.html.erb (71.8ms)
+  Rendered admin/_repo.html.erb (0.3ms)
+  Rendered admin/index.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 93ms (Views: 88.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:29 -0700
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Processing by AdminController#index as HTML
+  [1m[36mGitRepo Load (0.3ms)[0m  [1mSELECT "git_repos".* FROM "git_repos" WHERE "git_repos"."git_server_id" = 1[0m
+  Rendered admin/_server.html.erb (75.1ms)
+  Rendered admin/_repo.html.erb (0.3ms)
+  Rendered admin/index.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 98ms (Views: 92.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-20 16:13:45 -0700
+Served asset /application.js - 304 Not Modified (0ms)
