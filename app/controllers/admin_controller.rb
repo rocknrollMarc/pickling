@@ -1,20 +1,21 @@
 class AdminController < ApplicationController
   def index
-    @gitserver = GitServer.new
-    repo1 = GitRepo.new
-    repo1.project_name = 'repo1'
-    repo2 = GitRepo.new
-    repo2.project_name= 'repo2'
-
-    @gitserver.name = 'server'
-    @gitserver.protocol = 'ssh'
-    @gitserver.id= 1
-
-    @gitserver.git_repos << [repo1, repo2]
-    @gitserver
+    @gitserver = GitServer.first
   end
 
   def server_edit
     render
+  end
+
+  def server_new
+    server = GitServer.new
+    server.name = params[:name]
+    server.protocol=params[:protocol]
+    server.server_address=params[:server_address]
+    server.password_digest=params[:password_digest]
+    server.local_dir=params[:local_dir]
+    server.edit_with_branches=[:edit_with_branches]
+    server.save
+    redirect_to :action => :index
   end
 end

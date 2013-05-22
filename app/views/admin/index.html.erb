@@ -1,4 +1,10 @@
-<%= render partial: 'noserver' if @gitserver.nil? %>
-<%= render partial: 'server', :object => @gitserver if !@gitserver.nil? %>
-<%= render partial: 'norepo' if @gitserver.nil? || @gitserver.git_repos.nil?%>
-<%= render partial: 'repo', collection: @gitserver.git_repos if !(@gitserver.nil? && @gitserver.git_repos.nil?)%>
+<p>Git Server:</p>
+<% if @gitserver.nil? %>
+    <%= render partial: 'noserver'%>
+<% else %>
+    <%= render partial: 'server', :object => @gitserver if !@gitserver.nil? %>
+    <p>Repositories:</p>
+    <%= render partial: 'repo', server_id: @gitserver.id , collection: @gitserver.git_repos if !(@gitserver.git_repos.nil? || @gitserver.git_repos.empty?) %>
+    <p>Create a new repo:</p>
+    <%= render partial: 'norepo', server_id: @gitserver.id %>
+<% end %>
