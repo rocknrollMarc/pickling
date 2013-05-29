@@ -16,6 +16,13 @@ class AdminController < ApplicationController
     redirect_to :action => :index
   end
 
+  def repo_edit
+    repo = GitRepo.find(params[:id])
+    repo.attributes = params[:post]
+    repo.save
+    redirect_to :action => :index
+  end
+
   def server_new
     server = GitServer.new
     server.name = params[:name]
