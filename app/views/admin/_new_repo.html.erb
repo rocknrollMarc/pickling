@@ -1,0 +1,13 @@
+<section><p>no repo</p>
+  <%= form_tag(new_repo_path) do %>
+      <%= label_tag(:name) %>
+      <%= text_field_tag(:name) %>
+      <%= label_tag(:relative_remote_url) %>
+      <span class='server_connection_string'></span>
+      <%= text_field_tag(:relative_remote_url) %>
+      <%= text_field_tag(:git_server_id) %>
+      <%= label_tag(:git_server_id, server_id) %>
+      <%= submit_tag('Add') %>
+  <% end %>
+
+</section>

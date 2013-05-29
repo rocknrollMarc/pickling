@@ -32,6 +32,7 @@
     <orderEntry type="library" scope="PROVIDED" name="connection_pool (v1.0.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubis (v2.7.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v1.4.0, RVM: ruby-2.0.0-p0) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="git (v1.2.5, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.2, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.4, RVM: ruby-2.0.0-p0) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-2.0.0-p0) [gem]" level="application" />

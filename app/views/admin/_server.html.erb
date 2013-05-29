@@ -1,18 +1,17 @@
 <section>
-  <%=  form_for server, as: :post, url: edit_server_path(server.id), html: {class: :server_entry} do  |f| %>
+  <p>Git Server:</p>
+  <%=  form_for server, as: :post, url: edit_server_path(server.id), :html => {class: :server_entry} do  |f| %>
+      <%=  f.label :protocol %>
+      <%= f.select :protocol, options_for_select(protocols, server.protocol), {}, {class: 'protocol'} %>
       <%=  f.label :name %>
-      <%= f.text_field :name %>
-      <%=  f.label :server_address %>
-      <%= f.text_field :server_address %>
+      <%= f.text_field :name , class: 'server_name'%>
       <%=  f.label :server_user %>
       <%= f.text_field :server_user %>
       <%=  f.label :password_digest %>
       <%= f.text_field :password_digest %>
       <%=  f.label :local_dir %>
       <%= f.text_field :local_dir %>
-      <%=  f.label :edit_with_branches %>
-      <%= f.text_field :edit_with_branches %>
       <%= f.submit 'Save' %>
   <% end %>
-<p class='server_description'/>
+<p class='server_connection_string'></p>
 </section>

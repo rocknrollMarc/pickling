@@ -1,7 +1,9 @@
-class RepoUrlFormatter
+class window.GitUrlBuilder
   constructor:(selector) ->
     @source = $(selector)
 
   update: ->
-    tag_text = 'git clone git://github.com/user/repo.git'
-    $('.server_description').text(tag_text)
+    server = $('.server_name').val()
+    protocol = $('.protocol').val()
+    clone_url = "git clone " + protocol + "://" + server + "/"
+    @source.text(clone_url)

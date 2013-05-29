@@ -1,3 +1,18 @@
 class GitServer < ActiveRecord::Base
-  attr_accessible :edit_with_branches,:local_dir, :name, :password_digest, :server_address, :server_user
+  attr_accessible :name, :protocol, :server_user, :password_digest, :local_dir
+
+  def clone_address
+
+    case protocol
+      when 'ssh'
+        connection = "ssh://#{server_user}:#{password_digest}@#{name}/"
+      when 'https'
+        connection = "https://#{server_user}:#{password_digest}@#{name}/"
+      when 'http'
+        connection = "http://#{server_user}:#{password_digest}@#{name}/"
+      else
+        connection = "git://#{name}/"
+    end
+    "git clone #{connection}"
+  end
 end

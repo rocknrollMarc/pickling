@@ -3,5 +3,7 @@
 # You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
 
 $(document).ready ->
-  $('.server_entry').keyup (event) ->
-    $('.server_description').text(event.keyCode)
+  url_display = new GitUrlBuilder('.server_connection_string')
+  url_display.update()
+  $('.server_entry').keyup () ->
+    url_display.update()

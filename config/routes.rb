@@ -4,6 +4,7 @@ Pickling::Application.routes.draw do
   match 'admin' => 'admin#index'
   match 'admin/server/:id/edit' => 'admin#server_edit', as: :edit_server
   match 'admin/server/new' => 'admin#server_new', via: :post, as: :new_server
+  match 'admin/repo/new' => 'admin#repo_new', via: :post, as: :new_repo
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

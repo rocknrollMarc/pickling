@@ -5,6 +5,7 @@ class AdminController < ApplicationController
     repos = GitRepo.all
     @git_model[:server] = server
     @git_model[:repos] = repos
+    @git_model[:protocols] = %w(ssh http https git)
     @git_model
   end
 
@@ -20,11 +21,18 @@ class AdminController < ApplicationController
     server.name = params[:name]
     server.protocol=params[:protocol]
     server.server_user=params[:server_user]
-    server.server_address=params[:server_address]
     server.password_digest=params[:password_digest]
     server.local_dir=params[:local_dir]
-    server.edit_with_branches=[:edit_with_branches]
     server.save
+    redirect_to :action => :index
+  end
+
+  def repo_new
+    repo = GitRepo.new
+    repo.name = params[:name]
+    repo.relative_remote_url=params[:relative_remote_url]
+    repo.git_server_id=params[:git_server_id]
+    repo.save
     redirect_to :action => :index
   end
 end

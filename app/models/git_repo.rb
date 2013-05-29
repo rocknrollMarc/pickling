@@ -1,3 +1,3 @@
 class GitRepo < ActiveRecord::Base
-  attr_accessible :project_directory, :project_name, :working_branch, :git_server_id
+  attr_accessible :name, :relative_remote_url, :git_server_id
 end

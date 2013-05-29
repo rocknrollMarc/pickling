@@ -14,9 +14,8 @@
 ActiveRecord::Schema.define(:version => 20130520214647) do
 
   create_table "git_repos", :force => true do |t|
-    t.string   "project_name"
-    t.string   "project_directory"
-    t.string   "working_branch"
+    t.string   "name"
+    t.string   "relative_remote_url"
     t.integer  "git_server_id"
     t.datetime "created_at",        :null => false
     t.datetime "updated_at",        :null => false
@@ -24,12 +23,10 @@ ActiveRecord::Schema.define(:version => 20130520214647) do
 
   create_table "git_servers", :force => true do |t|
     t.string   "name"
+    t.string   "protocol"
     t.string   "server_user"
     t.string   "password_digest"
-    t.string   "server_address"
-    t.string   "protocol"
     t.string   "local_dir"
-    t.boolean  "edit_with_branches"
     t.datetime "created_at",         :null => false
     t.datetime "updated_at",         :null => false
   end
