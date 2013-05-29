@@ -1,5 +1,6 @@
 Pickling::Application.routes.draw do
   get "home/index"
+  root :to => 'home#index'
 
   match 'admin' => 'admin#index'
   match 'admin/server/:id/edit' => 'admin#server_edit', as: :edit_server
@@ -56,7 +57,6 @@ Pickling::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => 'welcome#index'
 
   # See how all your routes lay out with "rake routes"
 
