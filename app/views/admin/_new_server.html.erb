@@ -7,7 +7,7 @@
         <%= text_field_tag(:name, nil, class: 'server_name') %>
         <%= label_tag(:server_user) %>
         <%= text_field_tag(:server_user) %>
-        <%= label_tag(:password_digest) %>
+        <%= password_field(:post, :password_digest) %>
         <%= text_field_tag(:password_digest) %>
         <%= label_tag(:local_dir) %>
         <%= text_field_tag(:local_dir) %>
