@@ -4,6 +4,7 @@ gem 'rails', '3.2.12'
 gem 'git'
 gem 'sidekiq'
 gem 'redis'
+gem 'devise'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
