@@ -7,12 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<header>
-  <!--<h1>Pickling - The best way to preserve your Gherkin</h1>-->
-</header>
-
-<%= yield %>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+<section class="app_container">
+    <%= render partial: '/layouts/header'%>
+    <section class="main_body">
+    <%= yield %>
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
+    </section>
+</section>
+<%= render partial: '/layouts/footer'%>
 </body>
 </html>

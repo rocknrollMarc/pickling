@@ -11,3 +11,13 @@
  *= require_self
  *= require_tree .
  */
+html, body { height: 100%; margin:0;}
+
+.app_container{
+    position: relative;
+    min-height: 100%;
+}
+
+.main_body{
+    padding-bottom:70px;
+}
