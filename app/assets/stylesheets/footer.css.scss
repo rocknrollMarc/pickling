@@ -4,10 +4,16 @@ footer{
   margin: -70px auto 0 auto;
   background-color: #333333;
   color:  #DDDDDD;
-  padding: 20px 0 20px 4em;
+  padding: 20px 0 20px 0;
 }
 
 footer span, a {
   padding-left: .5em;
   margin-bottom:0;
+}
+
+.footer-img-repeater{
+  margin-top:10px;
+  height:20px;   width: 100%; float:left;
+  background-image: url('/assets/img_strip_small.png') ;
 }

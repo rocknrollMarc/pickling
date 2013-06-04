@@ -6,5 +6,10 @@ header{
 }
 
 header div{
-  height:58px; width: 58px; float:left;
+  height:40px;   width: 100%;; float:left;
+}
+
+.img-repeater{
+
+  background-image: url('/assets/img_strip.png') ;
 }
