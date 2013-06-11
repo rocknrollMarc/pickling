@@ -1,4 +1,5 @@
 <section class="admin_content">
+  <p>Pickling requires Git in order to pull the specifications and to save to feature branches.  Configure your server here and add any number of repositories. Each repository will appear in a list and all of the .spec files from that repository will be editible.</p>
 <% if @git_model[:server].nil? %>
   <section>
     <%= render partial: 'new_server', :locals => { protocols: @git_model[:protocols]}%>

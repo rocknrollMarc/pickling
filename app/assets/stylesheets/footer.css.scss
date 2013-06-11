@@ -17,3 +17,16 @@ footer span, a {
   height:20px;   width: 100%; float:left;
   background-image: url('/assets/img_strip_SMALL.png') ;
 }
+
+footer a p{
+    color:#DDDDDD;
+}
+footer a:hover{
+  	color:#DDDDDD;
+    font-weight:bold;
+}
+
+footer a:visited{
+  	color:#BFBFBF;
+    font-weight:bold;
+}

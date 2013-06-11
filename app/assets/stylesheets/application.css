@@ -26,7 +26,23 @@ html, body { height: 100%; margin:0;}
 .main_body{
     padding-bottom:100px;
     margin-left:1em;
+    margin-top:1em;
 }
+
+.app_container a{
+    color:#383030;
+    text-decoration:none;
+}
+.app_container a:hover{
+  	color:#383030;
+    font-weight:bold;
+}
+
+.app_container a:visited{
+  	color:#292323;
+    font-weight:bold;
+}
+
 
 form {
   width:500px;
