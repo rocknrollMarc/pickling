@@ -4,7 +4,10 @@ header{
   display:inline-block;
   width: 100%;
 }
-
+header h1{
+  margin-left: 1em;
+  font-size:18pt;
+}
 header div{
   height:40px;   width: 100%;; float:left;
 }
