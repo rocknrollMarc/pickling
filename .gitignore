@@ -9,6 +9,9 @@ coverage
 # Ignore bundler config
 .bundle
 
+#Ignore all redcar files
+.redcar
+
 # Ignore all logfiles and tempfiles.
 *.log
 tmp/

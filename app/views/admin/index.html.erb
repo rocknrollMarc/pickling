@@ -1,9 +1,20 @@
+<section class="admin_content">
 <% if @git_model[:server].nil? %>
+  <section>
     <%= render partial: 'new_server', :locals => { protocols: @git_model[:protocols]}%>
+  </section>
 <% else %>
-    <%= render partial: 'server', :locals => {protocols: @git_model[:protocols], server: @git_model[:server] }%>
-    <p>Repositories:</p>
-    <%= render partial: 'repo', :locals => {server_id: @git_model[:server].id} , collection: @git_model[:repos], as: :repo if !(@git_model[:repos].nil? || @git_model[:repos].empty?) %>
-    <p>Create a new repo:</p>
-    <%= render partial: 'new_repo', :locals => {server_id: @git_model[:server].id}%>
+    <section>
+      <h2>Git Server:</h2>
+      <%= render partial: 'server', :locals => {protocols: @git_model[:protocols], server: @git_model[:server] }%>
+    </section>
+    <section>
+      <h2>Repositories:</h2>
+      <%= render partial: 'repo', :locals => {server_id: @git_model[:server].id} , collection: @git_model[:repos], as: :repo if !(@git_model[:repos].nil? || @git_model[:repos].empty?) %>
+    </section>
+    <section>
+       <h2>Create a new repo:</h2>
+      <%= render partial: 'new_repo', :locals => {server_id: @git_model[:server].id}%>
+    </section>
 <% end %>
+</section>

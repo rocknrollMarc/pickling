@@ -1,5 +1,5 @@
-<section>
-  <p>Configure a Git Server:</p>
+<article>
+  <header><h1>Configure a Git Server:</h1></header>
     <%= form_tag(new_server_path, class: :server_entry) do %>
         <%= label_tag(:protocol) %>
         <%= select_tag :protocol, options_for_select(protocols.map {|name| [name,name]}), class: 'protocol' %>
@@ -14,4 +14,4 @@
         <%= submit_tag('Add') %>
     <% end %>
     <p class='server_connection_string'></p>
-</section>
+</article>

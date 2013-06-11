@@ -1,5 +1,4 @@
-<section>
-  <p>Git Server:</p>
+<article>
   <%=  form_for server, as: :post, url: edit_server_path(server.id), :html => {class: :server_entry} do  |f| %>
       <%=  f.label :protocol %>
       <%= f.select :protocol, options_for_select(protocols, server.protocol), {}, {class: 'protocol'} %>
@@ -14,4 +13,4 @@
       <%= f.submit 'Save' %>
   <% end %>
 <p class='server_connection_string'></p>
-</section>
+</article>

@@ -1,12 +1,11 @@
-<section>
+<article>
   <%=  form_for repo, as: :post, url: edit_repo_path(repo.id) do  |f| %>
       <%=  f.label :name %>
       <%= f.text_field :name %>
       <%=  f.label :relative_remote_url %>
-      <span class='server_connection_string'></span>
       <%= f.text_field :relative_remote_url%>
-      <%=  f.label :git_server_id %>
-      <%= f.text_field :git_server_id %>
+      <%= f.hidden_field :git_server_id %>
       <%= f.submit 'Save' %>
   <% end %>
-</section>
+        <span class='server_connection_string'></span>
+</article>

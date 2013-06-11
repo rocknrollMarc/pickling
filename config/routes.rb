@@ -3,8 +3,9 @@ Pickling::Application.routes.draw do
 
   get "home/index"
   root :to => 'home#index'
+  match 'about' => 'home#about', as: :about
 
-  match 'admin' => 'admin#index'
+  match 'admin' => 'admin#index', as: :admin
   match 'admin/server/:id/edit' => 'admin#server_edit', as: :edit_server
   match 'admin/server/new' => 'admin#server_new', via: :post, as: :new_server
   match 'admin/repo/:id/edit' => 'admin#repo_edit', as: :edit_repo
